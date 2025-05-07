@@ -1,0 +1,220 @@
+<div class="method-card">
+                    <i class="fas fa-lightbulb glow-icon"></i>
+                    <h3>Experimentación</h3>
+                    <p>Creatividad con las últimas herramientas de edición digital.</p>
+                </div>
+                <div class="method-card">
+                    <i class="fas fa-book-open float-icon"></i>
+                    <h3>Bitácora digital</h3>
+                    <p>Documenta tu evolución creativa y construye tu portafolio.</p>
+                </div>
+            </div>
+            <div class="creative-banner">
+                <div class="banner-content">
+                    <i class="fas fa-eye banner-icon"></i>
+                    <h3>Aprende a ver el mundo con ojos de diseñador</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Requisitos y Evaluación -->
+        <div class="two-col">
+            <div class="section" id="requisitos">
+                <h2><i class="fas fa-laptop-code animated-icon"></i>Requisitos</h2>
+                <p>Para aprovechar al máximo el curso necesitarás:</p>
+                <ul class="feature-list">
+                    <li><i class="fas fa-check-circle"></i>Adobe Photoshop 2024 e InDesign (para tu bitácora digital)</li>
+                    <li><i class="fas fa-check-circle"></i>Computador con capacidad para ejecutar software de edición</li>
+                    <li><i class="fas fa-check-circle"></i>Smartphone para ejercicios de edición móvil</li>
+                    <li><i class="fas fa-check-circle"></i>Muchas ganas de experimentar y crear</li>
+                </ul>
+            </div>
+
+            <div class="section" id="evaluacion">
+                <h2><i class="fas fa-chart-line animated-icon"></i>Evaluación</h2>
+                <p>Tu talento será evaluado en tres cortes:</p>
+                <ul class="feature-list">
+                    <li><i class="fas fa-percentage"></i>Primer corte (30%): Fundamentos y conceptos básicos</li>
+                    <li><i class="fas fa-percentage"></i>Segundo corte (40%): Técnicas intermedias y proyecto colaborativo</li>
+                    <li><i class="fas fa-percentage"></i>Tercer corte (30%): Proyecto final y portafolio</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- CTA -->
+        <div class="cta">
+            <div class="cta-overlay"></div>
+            <div class="cta-content">
+                <h2><i class="fas fa-rocket"></i> ¿Por qué tomar este curso?</h2>
+                <p>La manipulación fotográfica es una competencia indispensable en el arsenal de todo diseñador. Desde redes sociales hasta publicidad impresa, las imágenes perfectamente editadas marcan la diferencia entre un diseño amateur y uno profesional.</p>
+                <p>Con este curso no solo aprenderás técnicas, desarrollarás un ojo crítico para identificar oportunidades creativas en cada imagen y potenciar su mensaje visual.</p>
+                <div class="cta-icons">
+                    <div class="icon-circle"><i class="fas fa-image"></i></div>
+                    <div class="icon-circle"><i class="fas fa-paint-brush"></i></div>
+                    <div class="icon-circle"><i class="fas fa-crop-alt"></i></div>
+                </div>
+                <a href="#" class="cta-btn">¡Inscríbete ahora! <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <!-- Información -->
+        <div class="section" id="informacion">
+            <h2><i class="fas fa-info-circle animated-icon"></i>Información del curso</h2>
+            <div class="two-col">
+                <div>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-user-tie"></i><strong>Docente:</strong> Prof. Lucía Morales</li>
+                        <li><i class="fas fa-envelope"></i><strong>Contacto:</strong> lmorales70@uan.edu.co</li>
+                        <li><i class="fas fa-clock"></i><strong>Horario:</strong> Consulta el cronograma actualizado</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-id-card"></i><strong>Créditos:</strong> 3</li>
+                        <li><i class="fas fa-hashtag"></i><strong>Código:</strong> 71193046</li>
+                        <li><i class="fas fa-calendar-alt"></i><strong>Período:</strong> 2025-1</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-info">
+                <div>
+                    <h3>Universidad Antonio Nariño</h3>
+                    <p>Facultad de Artes</p>
+                    <p>Programa de Diseño Gráfico</p>
+                    <p>Bogotá, Colombia</p>
+                </div>
+                <div>
+                    <h3>Contacto</h3>
+                    <p><i class="fas fa-envelope"></i> info@uan.edu.co</p>
+                    <p><i class="fas fa-phone"></i> +57 (601) 338 4960</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Calle 58 A No. 37-94, Bogotá</p>
+                </div>
+                <div>
+                    <h3>Síguenos</h3>
+                    <p>Mantente al día con nuestras redes sociales</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 Universidad Antonio Nariño. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        /******************
+         * JavaScript - main.js
+         ******************/
+        
+        // Script para la interacción del menú lateral y acciones de la página
+        document.addEventListener('DOMContentLoaded', function() {
+            // Referencias a elementos DOM
+            const toggleBtn = document.querySelector('.toggle-btn');
+            const sidebar = document.querySelector('.sidebar');
+            const mainContent = document.querySelector('.main-content');
+            const menuLinks = document.querySelectorAll('.sidebar .menu ul li a');
+            
+            // Toggle menú lateral
+            toggleBtn.addEventListener('click', function() {
+                sidebar.classList.toggle('active');
+                mainContent.classList.toggle('active');
+                toggleBtn.classList.toggle('active');
+            });
+        
+            // Cerrar menú al hacer clic en un enlace (solo en móviles)
+            menuLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    if (window.innerWidth <= 768) {
+                        sidebar.classList.remove('active');
+                        mainContent.classList.remove('active');
+                        toggleBtn.classList.remove('active');
+                    }
+                });
+            });
+        
+            // Efecto smooth scroll para los enlaces del menú
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+            
+            // Animación de aparición al hacer scroll
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('show');
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+            
+            // Observa todas las secciones para animarlas cuando aparecen en el viewport
+            document.querySelectorAll('.section').forEach(section => {
+                section.classList.add('fade-in');
+                observer.observe(section);
+            });
+            
+            // Manejo de imágenes con lazy loading
+            if ('loading' in HTMLImageElement.prototype) {
+                // El navegador soporta lazy loading nativo
+                document.querySelectorAll('img').forEach(img => {
+                    img.setAttribute('loading', 'lazy');
+                });
+            } else {
+                // Fallback para navegadores que no soportan lazy loading nativo
+                console.log('Este navegador no soporta lazy loading nativo de imágenes');
+            }
+        
+            // Mejora de accesibilidad: hacer que los elementos interactivos sean accesibles con teclado
+            document.querySelectorAll('.method-card, .unit-card, .example-img').forEach(el => {
+                el.setAttribute('tabindex', '0');
+                
+                // Agregar evento de teclado para activar el hover con teclado
+                el.addEventListener('keydown', function(e) {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        this.click();
+                    }
+                });
+            });
+            
+            // Animación para el banner creativo
+            const creativeBanner = document.querySelector('.creative-banner');
+            if (creativeBanner) {
+                window.addEventListener('scroll', function() {
+                    const scrollPosition = window.scrollY;
+                    const bannerPosition = creativeBanner.offsetTop;
+                    const windowHeight = window.innerHeight;
+                    
+                    if (scrollPosition > bannerPosition - windowHeight + 200) {
+                        creativeBanner.classList.add('animate');
+                    }
+                });
+            }
+            
+            // Funcionalidad del formulario de contacto (simulada)
+            const ctaBtn = document.querySelector('.cta-btn');
+            if (ctaBtn) {
+                ctaBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    alert('¡Gracias por tu interés! En breve nos pondremos en contacto contigo.');
+                });
+            }
+        });
+    </script>
+</body>
+</html>
